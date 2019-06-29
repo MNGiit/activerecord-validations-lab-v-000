@@ -11,7 +11,7 @@ class Post < ActiveRecord::Base
   CLICKBAIT_ARR = [
     /Guess/,
     /Secret/,
-    /Top [0-9]*/,
+    /Top/,
     /Won't Believe/
   ]
   
